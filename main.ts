@@ -1,7 +1,7 @@
-// Este es el evento agitar
 input.onGesture(Gesture.Shake, function () {
-    basic.showString("" + (randint(1, 6)))
+    pasos += 1
+    basic.showNumber(pasos)
 })
-basic.forever(function () {
-	
-})
+let pasos = 0
+pasos = 0
+basic.showNumber(pasos)
